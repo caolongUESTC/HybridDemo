@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "CLFoundation-umbrella.h"
-
+#import "CLOrder/CLOrder-swift.h"
 
 @interface ViewController ()
 
@@ -19,7 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     CLPerson *person = [[CLPerson alloc] init];
-    
+    OrderUtil *util = [[OrderUtil alloc] init];
+    [person eat];
+    [util open];
     
     // Do any additional setup after loading the view.
 }

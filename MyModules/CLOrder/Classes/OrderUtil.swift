@@ -8,7 +8,7 @@
 import Foundation
 
 public class OrderUtil: NSObject {
-    func open() {
+    @objc public func open() {
         print("open function")
     }
     

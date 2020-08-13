@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -48,22 +48,22 @@
 		2D4F13EBB39129698C7941635426C511 /* OrderUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderUtil.swift; path = Classes/OrderUtil.swift; sourceTree = "<group>"; };
 		2FB6B969F853B649FB50278AC51B6806 /* Pods-MoudleFirst-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoudleFirst-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		35437DD1DE1F34C4DDD5A03E41683339 /* Pods_MoudleFirst.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoudleFirst.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35437DD1DE1F34C4DDD5A03E41683339 /* Pods_MoudleFirst.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoudleFirst.framework; path = "Pods-MoudleFirst.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A23CE66B516C289B609012F9E01885 /* CLOrder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLOrder-prefix.pch"; sourceTree = "<group>"; };
 		3B2AB7CAFF14FA835A74C7364E6CBE75 /* Pods-MoudleFirst-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoudleFirst-frameworks.sh"; sourceTree = "<group>"; };
-		4728198DF6438D79A28F115D28001F10 /* CLOrder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CLOrder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4728198DF6438D79A28F115D28001F10 /* CLOrder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CLOrder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		477C9D6D4A04FCD71C2B89AD35F29862 /* CLFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CLFoundation-Info.plist"; sourceTree = "<group>"; };
 		484DEE46404EB2FC5AC14CB14B7A848C /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
-		53BFADAA9D325E3DF4140A8408E268B7 /* license */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = license; sourceTree = "<group>"; };
+		53BFADAA9D325E3DF4140A8408E268B7 /* license */ = {isa = PBXFileReference; includeInIndex = 1; path = license; sourceTree = "<group>"; };
 		60873699425365E53A35495A516CEB96 /* CLFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLFoundation-umbrella.h"; sourceTree = "<group>"; };
 		6166AE74C0D9850B4434EEFC15592888 /* CLFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLFoundation.modulemap; sourceTree = "<group>"; };
-		6334A2A4F2653165B1D01FABE2B50656 /* CLFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6334A2A4F2653165B1D01FABE2B50656 /* CLFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CLFoundation.framework; path = CLFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66AD0977971262BAC1269465E2EFD449 /* CLFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLFoundation.release.xcconfig; sourceTree = "<group>"; };
 		896E67228A13017DFF66772308EA0208 /* CLFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLFoundation.debug.xcconfig; sourceTree = "<group>"; };
 		90ABF1F0BA778037211E8DADCC3F652A /* CLOrder-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLOrder-Bridging-Header.h"; path = "Classes/CLOrder-Bridging-Header.h"; sourceTree = "<group>"; };
 		93C6D5C9DE37EE45CC277AAB25239509 /* CLOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLOrder.debug.xcconfig; sourceTree = "<group>"; };
 		9A65E6EE8DDEC1E4D7E32F04D18928A0 /* Pods-MoudleFirst.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoudleFirst.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0F35776FE8D7ED83FA9A94F543D962 /* Pods-MoudleFirst-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoudleFirst-Info.plist"; sourceTree = "<group>"; };
 		A1102B1374C7AA06B1DFE8F03A82FFEA /* Pods-MoudleFirst.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoudleFirst.debug.xcconfig"; sourceTree = "<group>"; };
 		B756D4EDAF53F2BC1CBFB162A771444E /* CLPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLPerson.m; path = Classes/CLPerson.m; sourceTree = "<group>"; };
@@ -71,15 +71,15 @@
 		C70417C987089A6580A1D117ECC6FD82 /* CLOrder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLOrder-dummy.m"; sourceTree = "<group>"; };
 		C8471EF079887F9A6C740351D6A6F672 /* Pods-MoudleFirst-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoudleFirst-umbrella.h"; sourceTree = "<group>"; };
 		CF3091B46865F462AAE8F647239A7C71 /* CLOrder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLOrder.modulemap; sourceTree = "<group>"; };
-		D05EE20C3BFE30FE85E2484EDD6AB9F1 /* license */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = license; sourceTree = "<group>"; };
+		D05EE20C3BFE30FE85E2484EDD6AB9F1 /* license */ = {isa = PBXFileReference; includeInIndex = 1; path = license; sourceTree = "<group>"; };
 		D63C712E2EC8B6656F678AEE4259A8E3 /* Pods-MoudleFirst-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoudleFirst-acknowledgements.plist"; sourceTree = "<group>"; };
 		D72973A7D954F497197398944938BC65 /* Pods-MoudleFirst-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoudleFirst-dummy.m"; sourceTree = "<group>"; };
 		DDD0EA67D96282B2105D46F18BBA53B6 /* CLFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLFoundation-prefix.pch"; sourceTree = "<group>"; };
 		EA61E8428E7F2596F6B55A24D6376899 /* CLPerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLPerson.h; path = Classes/CLPerson.h; sourceTree = "<group>"; };
-		EA852046212807334F671434B09C4FD7 /* CLOrder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLOrder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA852046212807334F671434B09C4FD7 /* CLOrder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CLOrder.framework; path = CLOrder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FF157538ACAEBDB9E23C349F3B29CD /* CLOrder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CLOrder-Info.plist"; sourceTree = "<group>"; };
 		F4092EB50EDD5884A0FF4C1E5A137DB4 /* CLOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLOrder.release.xcconfig; sourceTree = "<group>"; };
-		F8C3A9A2586A3A0C16266EC2A01773BE /* CLFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CLFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F8C3A9A2586A3A0C16266EC2A01773BE /* CLFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CLFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -363,7 +363,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (

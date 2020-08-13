@@ -20,6 +20,9 @@
   "swift_versions": [
     "5.0"
   ],
+  "xcconfig": {
+    "OTHER_LINK_FLAGS": "-ObjC"
+  },
   "platforms": {
     "osx": null,
     "ios": null,
