@@ -1,0 +1,21 @@
+PODS:
+  - CLFoundation (0.0.1)
+  - CLOrder (0.0.1)
+
+DEPENDENCIES:
+  - CLFoundation (from `./MyModules/CLFoundation/`)
+  - CLOrder (from `./MyModules/CLOrder/`)
+
+EXTERNAL SOURCES:
+  CLFoundation:
+    :path: "./MyModules/CLFoundation/"
+  CLOrder:
+    :path: "./MyModules/CLOrder/"
+
+SPEC CHECKSUMS:
+  CLFoundation: c35e9771cd52a64a8c891b961e3e7de995fea2d2
+  CLOrder: fde8cd74b3e132555b379776b2d828cdf2c9fde5
+
+PODFILE CHECKSUM: 288142bc1a7ccd93c96f5f6556a5d9c217289aac
+
+COCOAPODS: 1.9.3

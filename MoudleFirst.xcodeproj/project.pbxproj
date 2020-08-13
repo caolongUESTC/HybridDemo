@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		624B224B6DBA3B82DD96E88E /* Pods_MoudleFirst.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10ED91BACE67F205C62897A5 /* Pods_MoudleFirst.framework */; };
 		C45C988024E4F56900927C01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C987F24E4F56900927C01 /* AppDelegate.m */; };
 		C45C988324E4F56900927C01 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C988224E4F56900927C01 /* SceneDelegate.m */; };
 		C45C988624E4F56900927C01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C988524E4F56900927C01 /* ViewController.m */; };
@@ -17,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10ED91BACE67F205C62897A5 /* Pods_MoudleFirst.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoudleFirst.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		560E4837F5AFEC63123F65BC /* Pods-MoudleFirst.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoudleFirst.debug.xcconfig"; path = "Target Support Files/Pods-MoudleFirst/Pods-MoudleFirst.debug.xcconfig"; sourceTree = "<group>"; };
+		AE55D522345E4C39AE5AEDA9 /* Pods-MoudleFirst.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoudleFirst.release.xcconfig"; path = "Target Support Files/Pods-MoudleFirst/Pods-MoudleFirst.release.xcconfig"; sourceTree = "<group>"; };
 		C45C987B24E4F56900927C01 /* MoudleFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoudleFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45C987E24E4F56900927C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C45C987F24E4F56900927C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,17 +40,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				624B224B6DBA3B82DD96E88E /* Pods_MoudleFirst.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		914B51346BF7C44CDEEF8180 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				560E4837F5AFEC63123F65BC /* Pods-MoudleFirst.debug.xcconfig */,
+				AE55D522345E4C39AE5AEDA9 /* Pods-MoudleFirst.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9DBAA949E7D5475E88C90DE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10ED91BACE67F205C62897A5 /* Pods_MoudleFirst.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C45C987224E4F56900927C01 = {
 			isa = PBXGroup;
 			children = (
 				C45C987D24E4F56900927C01 /* MoudleFirst */,
 				C45C987C24E4F56900927C01 /* Products */,
+				914B51346BF7C44CDEEF8180 /* Pods */,
+				9DBAA949E7D5475E88C90DE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C45C989424E4F56B00927C01 /* Build configuration list for PBXNativeTarget "MoudleFirst" */;
 			buildPhases = (
+				71C0A53F27C1989D3069961A /* [CP] Check Pods Manifest.lock */,
 				C45C987724E4F56900927C01 /* Sources */,
 				C45C987824E4F56900927C01 /* Frameworks */,
 				C45C987924E4F56900927C01 /* Resources */,
+				95A6409740ABE70FB9294A90 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +167,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71C0A53F27C1989D3069961A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoudleFirst-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A6409740ABE70FB9294A90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoudleFirst/Pods-MoudleFirst-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoudleFirst/Pods-MoudleFirst-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoudleFirst/Pods-MoudleFirst-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C45C987724E4F56900927C01 /* Sources */ = {
@@ -287,6 +356,7 @@
 		};
 		C45C989524E4F56B00927C01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560E4837F5AFEC63123F65BC /* Pods-MoudleFirst.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +373,7 @@
 		};
 		C45C989624E4F56B00927C01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE55D522345E4C39AE5AEDA9 /* Pods-MoudleFirst.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

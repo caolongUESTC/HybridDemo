@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CLFoundation-umbrella.h"
+
 
 @interface ViewController ()
 
@@ -16,6 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    CLPerson *person = [[CLPerson alloc] init];
+    
+    
     // Do any additional setup after loading the view.
 }
 

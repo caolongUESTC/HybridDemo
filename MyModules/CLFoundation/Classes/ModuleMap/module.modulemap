@@ -1,0 +1,4 @@
+framework module AppSwift {
+  umbrella header "innerUmbrella.h"
+  export *
+}
