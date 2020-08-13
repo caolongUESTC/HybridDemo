@@ -7,9 +7,8 @@
 //
 
 #import "ViewController.h"
-#import <CLFoundation-umbrella.h>
-#import <CLFoundation/innerUmbrella.h>
-#import "CLOrder/CLOrder-swift.h"
+@import CLFoundation;
+@import CLOrder;
 
 @interface ViewController ()
 

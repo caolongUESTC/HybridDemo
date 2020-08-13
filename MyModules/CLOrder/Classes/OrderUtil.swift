@@ -6,13 +6,14 @@
 //
 
 import Foundation
+import CLFoundation.CLPerson
 
 public class OrderUtil: NSObject {
     
     @objc public func open() {
+        print("open function")
         let person = CLPerson()
         person.eat()
-//        print("open function")
     }
     
 }

@@ -11,7 +11,6 @@
 #endif
 
 #import "CLPerson.h"
-#import "innerUmbrella.h"
 
 FOUNDATION_EXPORT double CLFoundationVersionNumber;
 FOUNDATION_EXPORT const unsigned char CLFoundationVersionString[];
