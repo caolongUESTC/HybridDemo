@@ -1,6 +1,7 @@
 PODS:
   - CLFoundation (0.0.1)
-  - CLOrder (0.0.1)
+  - CLOrder (0.0.1):
+    - CLFoundation
 
 DEPENDENCIES:
   - CLFoundation (from `./MyModules/CLFoundation/`)
@@ -14,7 +15,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CLFoundation: c35e9771cd52a64a8c891b961e3e7de995fea2d2
-  CLOrder: cf52212dabebef7b9c0166639ab9148e1899386f
+  CLOrder: 1e74284bc573d4919b3029b6c39221d8afe9feda
 
 PODFILE CHECKSUM: 288142bc1a7ccd93c96f5f6556a5d9c217289aac
 

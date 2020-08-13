@@ -8,20 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		11FA365DBF64C8BF4FBBA14B6879D2B6 /* Pods-MoudleFirst-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8471EF079887F9A6C740351D6A6F672 /* Pods-MoudleFirst-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28A690C22A47B820FC74CE8486B2A8E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3960DDA12FBFCC65EB8A6743DB8A7164 /* CLOrder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FF78D75FF481BCEFBECABA4FDF9EBB /* CLOrder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A690C22A47B820FC74CE8486B2A8E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05426F4D052DEA7DA44819F5665C5C4 /* Foundation.framework */; };
 		3D20CEFFE77C33C1B70A356A1F94DB25 /* CLFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D351F37C4EEC4FE9C659C0DD09B3ECD /* CLFoundation-dummy.m */; };
 		4735D9C46CBB6D041C44E0A5F0A80777 /* CLPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = EA61E8428E7F2596F6B55A24D6376899 /* CLPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A328A3527D343BB86D3F8AFA5147FE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		56A9AD032ACF4A9A94B0D84ABF3B3A9B /* Pods-MoudleFirst-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D72973A7D954F497197398944938BC65 /* Pods-MoudleFirst-dummy.m */; };
 		7B349D41FF195871F0FD1FD37C6E321D /* CLFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60873699425365E53A35495A516CEB96 /* CLFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90B213C0D9A6E5AA98911C7CDE08DFE5 /* CLOrder-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 90ABF1F0BA778037211E8DADCC3F652A /* CLOrder-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DAE35B65C7AEA1DB71BEFCF0EE87D39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05426F4D052DEA7DA44819F5665C5C4 /* Foundation.framework */; };
+		9B4AEBA83F6228C5C34E380D2BF6449B /* CLOrder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C70417C987089A6580A1D117ECC6FD82 /* CLOrder-dummy.m */; };
 		ACECAE4ADFC8ADE3C5A2DD56A5D25081 /* innerUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1CEF88B5161BE5E137BE28505FF1A2 /* innerUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADD5FBF789D9CC34AC0454905075B513 /* CLOrder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FF78D75FF481BCEFBECABA4FDF9EBB /* CLOrder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C451E989A9EDB2188014DBD0DAC9E89A /* CLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B756D4EDAF53F2BC1CBFB162A771444E /* CLPerson.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CA31DB75F3EAA6851D5A3B43881C379D /* CLFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382FDE3D6116F8EE68862C8F435C0A63 /* CLFoundation.framework */; };
+		CBBE905DD7D1BBB173F4CBC265CF8157 /* CLOrder-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 90ABF1F0BA778037211E8DADCC3F652A /* CLOrder-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA5052C4315FCD060BBD4184F656DFAC /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 484DEE46404EB2FC5AC14CB14B7A848C /* module.modulemap */; };
-		DD40BA09767595D6DA29B76F2D53E83E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E541F7D4F1BA6E2FF8C2AE6899A2A4D5 /* CLOrder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C70417C987089A6580A1D117ECC6FD82 /* CLOrder-dummy.m */; };
-		FA538727A517FE51B892BEE18CDE86FC /* OrderUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F13EBB39129698C7941635426C511 /* OrderUtil.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DD40BA09767595D6DA29B76F2D53E83E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05426F4D052DEA7DA44819F5665C5C4 /* Foundation.framework */; };
+		FC9C2DFE8956F9D725FA297C4E699B58 /* OrderUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F13EBB39129698C7941635426C511 /* OrderUtil.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,13 @@
 			remoteGlobalIDString = 75D5C49240755CB815C409E09B9D713D;
 			remoteInfo = CLFoundation;
 		};
+		F5195B7966843E18222CD4BB29C996DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D5C49240755CB815C409E09B9D713D;
+			remoteInfo = CLFoundation;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,9 +55,9 @@
 		1D351F37C4EEC4FE9C659C0DD09B3ECD /* CLFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLFoundation-dummy.m"; sourceTree = "<group>"; };
 		2D4F13EBB39129698C7941635426C511 /* OrderUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderUtil.swift; path = Classes/OrderUtil.swift; sourceTree = "<group>"; };
 		2FB6B969F853B649FB50278AC51B6806 /* Pods-MoudleFirst-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoudleFirst-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35437DD1DE1F34C4DDD5A03E41683339 /* Pods_MoudleFirst.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoudleFirst.framework; path = "Pods-MoudleFirst.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A23CE66B516C289B609012F9E01885 /* CLOrder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLOrder-prefix.pch"; sourceTree = "<group>"; };
+		382FDE3D6116F8EE68862C8F435C0A63 /* CLFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2AB7CAFF14FA835A74C7364E6CBE75 /* Pods-MoudleFirst-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoudleFirst-frameworks.sh"; sourceTree = "<group>"; };
 		4728198DF6438D79A28F115D28001F10 /* CLOrder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CLOrder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		477C9D6D4A04FCD71C2B89AD35F29862 /* CLFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CLFoundation-Info.plist"; sourceTree = "<group>"; };
@@ -65,6 +73,7 @@
 		9A65E6EE8DDEC1E4D7E32F04D18928A0 /* Pods-MoudleFirst.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoudleFirst.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0F35776FE8D7ED83FA9A94F543D962 /* Pods-MoudleFirst-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoudleFirst-Info.plist"; sourceTree = "<group>"; };
+		A05426F4D052DEA7DA44819F5665C5C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A1102B1374C7AA06B1DFE8F03A82FFEA /* Pods-MoudleFirst.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoudleFirst.debug.xcconfig"; sourceTree = "<group>"; };
 		B756D4EDAF53F2BC1CBFB162A771444E /* CLPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLPerson.m; path = Classes/CLPerson.m; sourceTree = "<group>"; };
 		BBB1CE260E44ADEA3DD138F1420E47FC /* Pods-MoudleFirst.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoudleFirst.modulemap"; sourceTree = "<group>"; };
@@ -83,14 +92,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B98395DF4BE829C4C0DB00808774CB96 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A328A3527D343BB86D3F8AFA5147FE7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BF42504665B4B3F116562D81315998E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,6 +105,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A690C22A47B820FC74CE8486B2A8E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC11583D30E15C8A03F50F319011E144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA31DB75F3EAA6851D5A3B43881C379D /* CLFoundation.framework in Frameworks */,
+				8DAE35B65C7AEA1DB71BEFCF0EE87D39 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +171,15 @@
 			path = ../MyModules/CLOrder;
 			sourceTree = "<group>";
 		};
+		89093FA01AC175672238065B7393284E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				382FDE3D6116F8EE68862C8F435C0A63 /* CLFoundation.framework */,
+				CFDFA5335B12E20CF5084BC5BC1DA406 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B99D4076C72B165F4DAAD089A1E9EAB /* CLFoundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,31 +228,23 @@
 			path = "Target Support Files/Pods-MoudleFirst";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				F1C3CC37D99A33707BC856E2E2F04CB4 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				89093FA01AC175672238065B7393284E /* Frameworks */,
 				FDE84F5338F324235A142B1E5C58A428 /* Products */,
 				B97EFA2CF57A966CE0838DD922C586BC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		CFDFA5335B12E20CF5084BC5BC1DA406 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				A05426F4D052DEA7DA44819F5665C5C4 /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F1C3CC37D99A33707BC856E2E2F04CB4 /* Development Pods */ = {
@@ -275,15 +286,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC8118D63232A6E537469936A8C6AAD9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90B213C0D9A6E5AA98911C7CDE08DFE5 /* CLOrder-Bridging-Header.h in Headers */,
-				3960DDA12FBFCC65EB8A6743DB8A7164 /* CLOrder-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F56080407D9166831AAEF1E0512097EF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,21 +296,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB5BF8F2A75EB7A3E2DA68B158732A52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBE905DD7D1BBB173F4CBC265CF8157 /* CLOrder-Bridging-Header.h in Headers */,
+				ADD5FBF789D9CC34AC0454905075B513 /* CLOrder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0F8D19E3D45B5D314AD42736EFE5E933 /* CLOrder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FABFF5697B3AF33FAC3F9E92A65C634D /* Build configuration list for PBXNativeTarget "CLOrder" */;
+			buildConfigurationList = 7FA673ABF4279F244A59AA4B07E82AB3 /* Build configuration list for PBXNativeTarget "CLOrder" */;
 			buildPhases = (
-				CC8118D63232A6E537469936A8C6AAD9 /* Headers */,
-				71CA24A8C78F10FEDE511BB2A98B5160 /* Sources */,
-				B98395DF4BE829C4C0DB00808774CB96 /* Frameworks */,
-				AE13D14AA3431E85D656F72F0FE275A0 /* Resources */,
+				FB5BF8F2A75EB7A3E2DA68B158732A52 /* Headers */,
+				361BE0BEF9E8A74783020B1516637E7E /* Sources */,
+				EC11583D30E15C8A03F50F319011E144 /* Frameworks */,
+				8CF2D1BA2857D437F60BF4656608B72A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BEB7BFA67AABB811F9B46AA2A8E0D192 /* PBXTargetDependency */,
 			);
 			name = CLOrder;
 			productName = CLOrder;
@@ -397,7 +409,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE13D14AA3431E85D656F72F0FE275A0 /* Resources */ = {
+		8CF2D1BA2857D437F60BF4656608B72A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -415,12 +427,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71CA24A8C78F10FEDE511BB2A98B5160 /* Sources */ = {
+		361BE0BEF9E8A74783020B1516637E7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E541F7D4F1BA6E2FF8C2AE6899A2A4D5 /* CLOrder-dummy.m in Sources */,
-				FA538727A517FE51B892BEE18CDE86FC /* OrderUtil.swift in Sources */,
+				9B4AEBA83F6228C5C34E380D2BF6449B /* CLOrder-dummy.m in Sources */,
+				FC9C2DFE8956F9D725FA297C4E699B58 /* OrderUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,45 +461,15 @@
 			target = 75D5C49240755CB815C409E09B9D713D /* CLFoundation */;
 			targetProxy = 81CA86F8FD97275AE7E4DD6AA9E5AC9A /* PBXContainerItemProxy */;
 		};
+		BEB7BFA67AABB811F9B46AA2A8E0D192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CLFoundation;
+			target = 75D5C49240755CB815C409E09B9D713D /* CLFoundation */;
+			targetProxy = F5195B7966843E18222CD4BB29C996DC /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D0CDA25620299CE66E8BADD43A03A61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4092EB50EDD5884A0FF4C1E5A137DB4 /* CLOrder.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CLOrder/CLOrder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CLOrder/CLOrder-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CLOrder/CLOrder.modulemap";
-				PRODUCT_MODULE_NAME = CLOrder;
-				PRODUCT_NAME = CLOrder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		20A1D9D0D1DA3308C15541809748C296 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1102B1374C7AA06B1DFE8F03A82FFEA /* Pods-MoudleFirst.debug.xcconfig */;
@@ -564,41 +546,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		3431F219817F4F0F9A3A2EBE8D1C0BE2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93C6D5C9DE37EE45CC277AAB25239509 /* CLOrder.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CLOrder/CLOrder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CLOrder/CLOrder-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CLOrder/CLOrder.modulemap";
-				PRODUCT_MODULE_NAME = CLOrder;
-				PRODUCT_NAME = CLOrder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -699,6 +646,41 @@
 			};
 			name = Release;
 		};
+		C3B4C040E44F77FAD7BC39DBB4982F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C6D5C9DE37EE45CC277AAB25239509 /* CLOrder.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CLOrder/CLOrder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLOrder/CLOrder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CLOrder/CLOrder.modulemap";
+				PRODUCT_MODULE_NAME = CLOrder;
+				PRODUCT_NAME = CLOrder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C3CB84A05259478E2EA29143B1DD5EB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 896E67228A13017DFF66772308EA0208 /* CLFoundation.debug.xcconfig */;
@@ -732,6 +714,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		E369983AF4D633E17FE9C187C64BF5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4092EB50EDD5884A0FF4C1E5A137DB4 /* CLOrder.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CLOrder/CLOrder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLOrder/CLOrder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CLOrder/CLOrder.modulemap";
+				PRODUCT_MODULE_NAME = CLOrder;
+				PRODUCT_NAME = CLOrder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -814,20 +832,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7FA673ABF4279F244A59AA4B07E82AB3 /* Build configuration list for PBXNativeTarget "CLOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B4C040E44F77FAD7BC39DBB4982F8B /* Debug */,
+				E369983AF4D633E17FE9C187C64BF5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EFFAF91C736868664553748E886E7321 /* Build configuration list for PBXNativeTarget "Pods-MoudleFirst" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20A1D9D0D1DA3308C15541809748C296 /* Debug */,
 				2FF19FF4CC1DC95346386566254F9421 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FABFF5697B3AF33FAC3F9E92A65C634D /* Build configuration list for PBXNativeTarget "CLOrder" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3431F219817F4F0F9A3A2EBE8D1C0BE2 /* Debug */,
-				0D0CDA25620299CE66E8BADD43A03A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -23,6 +23,11 @@
   "xcconfig": {
     "OTHER_LINK_FLAGS": "-ObjC"
   },
+  "dependencies": {
+    "CLFoundation": [
+
+    ]
+  },
   "platforms": {
     "osx": null,
     "ios": null,
