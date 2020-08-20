@@ -8,4 +8,5 @@ target 'MoudleFirst' do
   pod 'CLOrder', :path => './MyModules/CLOrder/'
   # Pods for MoudleFirst
   #pod 'AFNetworking'
+  pod 'Arcane'
 end
