@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "Classes/Exclude"
   spec.swift_versions = ['5.0']
 
- #spec.private_header_files = "Classes/**/*.h"
+  spec.private_header_files = "Classes/**/*Detail.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -133,6 +133,7 @@ Pod::Spec.new do |spec|
   
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.user_target_xcconfig = {"OTHER_LINK_FLAGS" => "-ObjC"}
+  spec.pod_target_xcconfig = {"HEADER_SEARCH_PATHS" => "$(inherited) '$(PODS_TARGET_SRCROOT)/**/*.h'"}
   spec.dependency "CLFoundation"
 
 end

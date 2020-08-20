@@ -20,8 +20,12 @@
   "swift_versions": [
     "5.0"
   ],
+  "private_header_files": "Classes/**/*Detail.h",
   "user_target_xcconfig": {
     "OTHER_LINK_FLAGS": "-ObjC"
+  },
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(inherited) '$(PODS_TARGET_SRCROOT)/**/*.h'"
   },
   "dependencies": {
     "CLFoundation": [

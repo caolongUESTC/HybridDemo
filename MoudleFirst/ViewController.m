@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <CLOrder/CLOrderDetail.h>
 @import CLFoundation;
 @import CLOrder;
 
@@ -22,7 +23,8 @@
     OrderUtil *util = [[OrderUtil alloc] init];
     [person eat];
     [util open];
-    
+    CLOrderDetail *detail = [CLOrderDetail new];
+    [detail invokeSwift];
     // Do any additional setup after loading the view.
 }
 

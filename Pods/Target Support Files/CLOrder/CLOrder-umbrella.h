@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "CLOrderDetail.h"
 
 FOUNDATION_EXPORT double CLOrderVersionNumber;
 FOUNDATION_EXPORT const unsigned char CLOrderVersionString[];
