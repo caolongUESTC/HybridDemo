@@ -7,4 +7,5 @@ target 'MoudleFirst' do
   pod 'CLFoundation', :path => './MyModules/CLFoundation/'
   pod 'CLOrder', :path => './MyModules/CLOrder/'
   # Pods for MoudleFirst
+  #pod 'AFNetworking'
 end
