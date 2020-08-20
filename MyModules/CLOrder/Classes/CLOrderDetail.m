@@ -6,7 +6,7 @@
 //
 
 #import "CLOrderDetail.h"
-#import <CLOrder/CLOrder-Swift.h>
+#import <PrivateModule/PrivateModule-Swift.h>
 
 @implementation CLOrderDetail
 

@@ -198,11 +198,11 @@ fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CLFoundation/CLFoundation.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CLOrder/CLOrder.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CLOrder/PrivateModule.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CLFoundation/CLFoundation.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CLOrder/CLOrder.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CLOrder/PrivateModule.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

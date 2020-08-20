@@ -14,6 +14,7 @@ public class OrderUtil: NSObject {
         print("open function")
         let person = CLPerson()
         person.eat()
+        
     }
     
 }

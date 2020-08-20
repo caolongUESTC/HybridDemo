@@ -17,6 +17,7 @@
     "Classes/**/*"
   ],
   "exclude_files": "Classes/Exclude",
+  "module_name": "PrivateModule",
   "swift_versions": [
     "5.0"
   ],

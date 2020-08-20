@@ -91,6 +91,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "Classes", "Classes/**/*"
   spec.exclude_files = "Classes/Exclude"
+  spec.module_name = "PrivateModule"
   spec.swift_versions = ['5.0']
 
   spec.private_header_files = "Classes/**/*Detail.h"

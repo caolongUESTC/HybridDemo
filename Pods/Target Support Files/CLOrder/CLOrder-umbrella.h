@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double CLOrderVersionNumber;
-FOUNDATION_EXPORT const unsigned char CLOrderVersionString[];
+FOUNDATION_EXPORT double PrivateModuleVersionNumber;
+FOUNDATION_EXPORT const unsigned char PrivateModuleVersionString[];
 

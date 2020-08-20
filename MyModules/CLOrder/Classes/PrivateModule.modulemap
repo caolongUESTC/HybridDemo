@@ -1,0 +1,4 @@
+module PrivateModule [system] {
+  header "CLOrderDetail.h"
+  export *
+}

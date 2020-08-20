@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-#import <CLOrder/CLOrderDetail.h>
+#import <PrivateModule/CLOrderDetail.h>
 @import CLFoundation;
-@import CLOrder;
+@import PrivateModule;
 
 @interface ViewController ()
 

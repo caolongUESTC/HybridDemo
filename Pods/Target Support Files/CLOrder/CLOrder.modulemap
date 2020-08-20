@@ -1,4 +1,4 @@
-framework module CLOrder {
+framework module PrivateModule {
   umbrella header "CLOrder-umbrella.h"
 
   export *
