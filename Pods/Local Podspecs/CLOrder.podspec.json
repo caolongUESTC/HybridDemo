@@ -20,7 +20,7 @@
   "swift_versions": [
     "5.0"
   ],
-  "xcconfig": {
+  "user_target_xcconfig": {
     "OTHER_LINK_FLAGS": "-ObjC"
   },
   "dependencies": {

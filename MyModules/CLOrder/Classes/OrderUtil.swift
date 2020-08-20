@@ -7,6 +7,7 @@
 
 import Foundation
 import CLFoundation.CLPerson
+import CommonCrypto
 
 public class OrderUtil: NSObject {
     

@@ -197,12 +197,10 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Arcane/Arcane.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CLFoundation/CLFoundation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CLOrder/CLOrder.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Arcane/Arcane.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CLFoundation/CLFoundation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CLOrder/CLOrder.framework"
 fi

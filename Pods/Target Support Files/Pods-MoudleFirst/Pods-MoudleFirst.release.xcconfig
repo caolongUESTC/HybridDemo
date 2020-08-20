@@ -1,9 +1,9 @@
 EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Arcane" "${PODS_CONFIGURATION_BUILD_DIR}/CLFoundation" "${PODS_CONFIGURATION_BUILD_DIR}/CLOrder"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CLFoundation" "${PODS_CONFIGURATION_BUILD_DIR}/CLOrder"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Arcane/Arcane.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CLFoundation/CLFoundation.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CLOrder/CLOrder.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CLFoundation/CLFoundation.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CLOrder/CLOrder.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "Arcane" -framework "CLFoundation" -framework "CLOrder"
+OTHER_LDFLAGS = $(inherited) -framework "CLFoundation" -framework "CLOrder"
 OTHER_LINK_FLAGS = -ObjC
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}

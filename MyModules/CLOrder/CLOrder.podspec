@@ -132,7 +132,7 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
   
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.xcconfig = {"OTHER_LINK_FLAGS" => "-ObjC"}
+  spec.user_target_xcconfig = {"OTHER_LINK_FLAGS" => "-ObjC"}
   spec.dependency "CLFoundation"
 
 end

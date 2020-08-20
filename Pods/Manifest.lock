@@ -1,17 +1,11 @@
 PODS:
-  - Arcane (2.1)
   - CLFoundation (0.0.1)
   - CLOrder (0.0.1):
     - CLFoundation
 
 DEPENDENCIES:
-  - Arcane
   - CLFoundation (from `./MyModules/CLFoundation/`)
   - CLOrder (from `./MyModules/CLOrder/`)
-
-SPEC REPOS:
-  trunk:
-    - Arcane
 
 EXTERNAL SOURCES:
   CLFoundation:
@@ -20,10 +14,9 @@ EXTERNAL SOURCES:
     :path: "./MyModules/CLOrder/"
 
 SPEC CHECKSUMS:
-  Arcane: 3a2e2f773a112911693ad4dcf4bec4293fac63e7
   CLFoundation: b994276fedc8301e1452f8062345450bac0e4a81
-  CLOrder: 1e74284bc573d4919b3029b6c39221d8afe9feda
+  CLOrder: cbb7c7b0c31777f34b55fb4ed4b29e02e6c3bbeb
 
-PODFILE CHECKSUM: 878cdeeb49dd1e0fbf8d9828d42b30662ffb6f8a
+PODFILE CHECKSUM: 1eca88a9591d9ffe1123126a99bc79de070e45ae
 
 COCOAPODS: 1.9.3
